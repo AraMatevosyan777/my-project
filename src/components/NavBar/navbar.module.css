@@ -1,0 +1,31 @@
+.Navbar{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    height: 100%;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+}
+.navbarBody{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 0;
+    padding: 20px 0;
+}
+.navbarBody a{
+    width: 100%;
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    display: block;
+    color: #000;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.navbarBody a:hover{
+    background-color: #ccc;
+}
+.active{
+    background-color: #ccc;
+}

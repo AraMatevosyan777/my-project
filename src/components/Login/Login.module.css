@@ -1,0 +1,97 @@
+.loginForm{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.loginTitle{
+  width: 50%;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: center;
+}
+.loginTitle *{
+  margin-bottom: 20px;
+}
+.loginForm form{
+  width: 50%;
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 5px;
+  position: relative;
+}
+.formField{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.formField:last-child{
+  margin-bottom: 0;
+}
+.formField input{
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  padding: 20px;
+  outline: none;
+  font-size: 16px;
+}
+.formField input[type=checkbox]{
+  width: 13px;
+  padding: 0;
+  margin: 0;
+  margin-left: 5px;
+}
+.formField button{
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  background-color: blue;
+  color: #fff;
+  outline: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: box-shadow .2s linear;
+}
+.formField button:hover{
+  box-shadow: 2px 6px 5px #888888;
+}
+
+/* ============= */
+
+.formError{
+  position: absolute;
+  z-index: 1;
+  bottom: 30px;
+  left: 40px;
+  font-weight: bold;
+  color: rgb(226, 1, 1);
+}
+
+.captcha{
+  width: 250px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  bottom: 20%;
+  overflow: hidden;
+}
+.captcha img{
+  width: 50%;
+}
+.captcha input{
+  width: 50%;
+  height: 50%;
+}

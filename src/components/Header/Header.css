@@ -1,0 +1,39 @@
+.Header{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+}
+.HeaderBody{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.HeaderRight{
+  display: flex;
+}
+.HeaderUserBlock{
+  text-decoration: none;
+  color: #000;
+  padding: 10px 20px;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  transition: background-color .2s linear;
+}
+.HeaderUserBlock:hover{
+  background-color: #ccc;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 700;
+  padding: 10px 18px;
+}
+
+.login{
+  text-decoration: none;
+  color: #000;
+  padding: 10px 0 10px 20px;
+  cursor: pointer;
+  font-weight: 700;
+}

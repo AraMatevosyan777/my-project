@@ -1,0 +1,67 @@
+.users{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 0;
+}
+.user{
+    width: 30%;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.userPhoto{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.userPhoto a{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.userPhoto a img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.user h3{
+    text-align: center;
+    width: 100%;
+}
+.status{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.btnBlock{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btnBlock button{
+    background-color: #fff;
+    width: 40%;
+    border: none;
+    padding: 10px 0;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background .2s linear, color .2s linear;
+    outline: none;
+}
+.btnBlock button:hover{
+    background-color: #ccc;
+    color: #fff;
+}

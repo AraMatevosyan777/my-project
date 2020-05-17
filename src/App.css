@@ -1,0 +1,20 @@
+.App{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #ddd;
+}
+.Content{
+  width: 78%;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+.container{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0 0;
+}
