@@ -102,7 +102,6 @@
   .loginForm{
     flex-wrap: wrap;
     justify-content: center;
-    height: 0;
   }
   .loginTitle{
     width: 100%;
