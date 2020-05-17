@@ -70,8 +70,8 @@
 .formError{
   position: absolute;
   z-index: 1;
-  bottom: 30px;
-  left: 40px;
+  bottom: 5%;
+  left: 2%;
   font-weight: bold;
   color: rgb(226, 1, 1);
 }
@@ -94,4 +94,106 @@
 .captcha input{
   width: 50%;
   height: 50%;
+}
+
+/* ---------------------- */
+
+@media (max-width:899px){
+  .loginForm{
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 0;
+  }
+  .loginTitle{
+    width: 100%;
+    justify-content: center;
+    padding: 5px;
+  }
+  .loginTitle *{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+  }
+  .loginForm form{
+    width: 80%;
+  }
+}
+@media (max-width:599px){
+  .loginTitle h1{
+    font-size: 25px;
+  }
+  .loginTitle h3{
+    font-size: 15px;
+  }
+  .loginForm form{
+    padding: 10px;
+    font-size: 14px;
+  }
+  .formField{
+    margin-bottom: 10px;
+  }
+  .formField input{
+    padding: 10px;
+    font-size: 14px;
+  }
+  .formField button{
+    padding: 5px 8px;
+    font-size: 14px;
+  }
+  .formField button:hover{
+    box-shadow: 2px 4px 3px #888888;
+  }
+  .captcha{
+    bottom: 15%;
+  }
+  .formError{
+    bottom: 5%;
+  }
+}
+@media (max-width:499px){
+  .captcha{
+    width: 200px;
+    height: 40px;
+  }
+}
+@media (max-width:399px){
+  .loginForm form{
+    font-size: 13px;
+  }
+  .formField input{
+    font-size: 13px;
+  }
+  .formField button{
+    font-size: 13px;
+  }
+  .captcha{
+    width: 150px;
+    height: 40px;
+  }
+}
+@media (max-width:330px){
+  .loginForm form{
+    font-size: 12px;
+  }
+  .formField input{
+    font-size: 12px;
+  }
+  .formField button{
+    font-size: 12px;
+  }
+  .captcha{
+    flex-wrap: wrap;
+    justify-content: center;
+    bottom: 13%;
+    height: 50px;
+  }
+  .captcha img{
+    width: 60%;
+    height: 30px;
+  }
+  .captcha input{
+    width: 60%;
+    height: 20px;
+  }
 }

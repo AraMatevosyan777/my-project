@@ -39,6 +39,8 @@
         border-left: 0;
         border-bottom: 1px solid #ccc;
         justify-content: flex-end;
+        margin-bottom: 10px;
+        padding-bottom: 5px;
     }
     .navbarBody{
         width: 40%;
@@ -51,6 +53,7 @@
     }
     .navbarBody a{
         padding: 6px 8px;
+        font-weight: normal;
     }
   }
 @media (max-width:399px){

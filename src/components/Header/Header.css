@@ -50,6 +50,9 @@
   .HeaderUserBlock{
     padding: 10px 10px;
   }
+  .HeaderUserBlock:hover{
+    padding: 10px 8px;
+  }
   .login{
     padding: 10px 0 10px 10px;
   }
@@ -64,6 +67,9 @@
   .HeaderUserBlock{
     padding: 8px 8px;
     font-size: 14px;
+  }
+  .HeaderUserBlock:hover{
+    padding: 8px 6px;
   }
   .login{
     padding: 8px 0 8px 8px;
