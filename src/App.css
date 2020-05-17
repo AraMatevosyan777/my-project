@@ -10,11 +10,30 @@
   width: 78%;
   display: flex;
   justify-content: center;
-  min-height: 100vh;
 }
 .container{
   width: 80%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   padding: 20px 0 0;
+}
+
+/* ------------------- */
+
+@media (max-width:999px){
+  .container{
+    width: 100%;
+    padding: 10px 0 0;
+  }
+}
+@media (max-width:599px){
+  .Content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .container{
+    padding: 5px;
+  }
 }

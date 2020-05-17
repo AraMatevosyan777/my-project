@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { reduxForm, Field } from 'redux-form';
 import '../Profile.css';
+import '../ProfileMedia.css';
 import editIcon from '../../../assets/images/editIcon.svg';
 import saveIcon from '../../../assets/images/saveIcon.svg';
 

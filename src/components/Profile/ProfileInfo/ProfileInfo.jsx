@@ -1,5 +1,6 @@
 import React from 'react';
 import '../Profile.css';
+import '../ProfileMedia.css';
 import Status from './status';
 import ProfilePhoto from './ProfilePhoto';
 

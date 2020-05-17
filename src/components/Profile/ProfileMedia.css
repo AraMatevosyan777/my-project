@@ -1,0 +1,103 @@
+@media (max-width:899px){
+  .profilePhoto{
+    min-height: 350px;
+  }
+  .contactsBody{
+    padding: 10px;
+  }
+  .aboutMeBlock{
+    margin-bottom: 10px;
+    min-height: 133px;
+  }
+  .aboutMeItem{
+    padding: 5px 0;
+  }
+  .aboutMeInfo{
+    width: 50%;
+    justify-content: flex-end;
+    padding-right: 10px;
+  }
+  .aboutMeTitle{
+    width: 50%;
+  }
+}
+@media (max-width:499px){
+
+  .profileInfo{
+    width: 40%;
+  }
+  .profilePhoto{
+    margin-bottom: 10px;
+  }
+  .status span{
+    padding: 5px;
+    font-size: 14px;
+  }
+  .status input{
+    padding: 5px;
+    font-size: 14px;
+  }
+  .contacts{
+    width: 58%;
+  }
+  .aboutMeInfo{
+    font-size: 14px;
+  }
+  .aboutMeTitle{
+    font-size: 14px;
+  }
+  .aboutMeItem{
+    padding: 0 0 5px 0;
+  }
+  .contactsButton{
+    top: 5px;
+    right: 5px;
+  }
+  .contactsButton img{
+    width: 15px;
+  }
+  .contactsBlock{
+    padding: 10px;
+  }
+  .contactsItem{
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+}
+@media (max-width:499px){
+  .profile{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .profileInfo{
+    width: 70%;
+    margin-bottom: 10px;
+  }
+  .profilePhoto{
+    min-height: 250px;
+  }
+  .contacts{
+    width: 70%;
+  }
+  .contactsBody{
+    padding: 20px 10px;
+  }
+  .contactsError{
+    font-size: 13px;
+    margin-bottom: 5px;
+  }
+}
+@media (max-width:399px){
+  .aboutMeItem{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .aboutMeTitle{
+    width: 100%;
+    justify-content: center;
+  }
+  .aboutMeInfo{
+    width: 100%;
+    justify-content: center;
+  }
+}

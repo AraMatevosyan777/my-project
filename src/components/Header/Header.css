@@ -11,6 +11,9 @@
   justify-content: space-between;
   align-items: center;
 }
+.HeaderBody h1{
+  font-style: italic;
+}
 .HeaderRight{
   display: flex;
 }
@@ -36,4 +39,34 @@
   padding: 10px 0 10px 20px;
   cursor: pointer;
   font-weight: 700;
+}
+
+/* -------------------------------------- */
+
+@media (max-width:599px){
+  .HeaderBody h1{
+    font-size: 25px;
+  }
+  .HeaderUserBlock{
+    padding: 10px 10px;
+  }
+  .login{
+    padding: 10px 0 10px 10px;
+  }
+  .HeaderBody{
+    width: 90%;
+  }
+}
+@media (max-width:399px){
+  .HeaderBody h1{
+    font-size: 23px;
+  }
+  .HeaderUserBlock{
+    padding: 8px 8px;
+    font-size: 14px;
+  }
+  .login{
+    padding: 8px 0 8px 8px;
+    font-size: 14px;
+  }
 }
